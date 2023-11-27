@@ -22,7 +22,7 @@ a{
 header{
     position: sticky;
     top: 0px;
-  background-image: linear-gradient(to right top, #fe0011, #ff5483, #ff98d3, #f7d2fb, #ffffff);
+background-image: linear-gradient(to right top, #fe0011, #fc282e, #f83d43, #f34f56, #eb5e67);
 ;
     width: 100%;
     z-index: 1000;
