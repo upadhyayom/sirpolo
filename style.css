@@ -22,7 +22,8 @@ a{
 header{
     position: sticky;
     top: 0px;
-    background-color: #FFFF00;
+   background-image: linear-gradient(to bottom, #fe0011, #ff5483, #ff98d3, #f7d2fb, #ffffff);
+;
     width: 100%;
     z-index: 1000;
 }
