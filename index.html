@@ -187,11 +187,22 @@
             </div>
         </div>
     </header>
-    <main>
-        <section>
-            <div class="overlay"></div>
-        </section>
-    </main>
+   
+    <script>
+        // Mobile Menu Toggle
+        $('#check').change(function () {
+            if ($(this).is(":checked")) {
+                $('.nav-link > .dropdown').hide();
+            }
+        });
+
+        // Close dropdown on mobile when a list item is clicked
+        $('.nav-link > a').on('click', function () {
+            if ($('#check').is(":checked")) {
+                $('#check').prop('checked', false);
+            }
+        });
+    </script>
 </body>
 
 </html>
