@@ -42,7 +42,7 @@ section{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: gray;
+    background-color: white;
 }
 
 .container{
@@ -111,7 +111,7 @@ section{
 
 .nav-link > a{
     line-height: 3rem;
-    color: #fff;
+    color: black;
     padding: 0 .4rem;
     letter-spacing: 1px;
     font-size: 16px;
