@@ -59,6 +59,7 @@ section{
     align-items: center;
     background-color:red;
     border-radius:2px;
+    width:auto;
 }
 
 .nav-btn{
