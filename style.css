@@ -42,7 +42,7 @@ section{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: yellow;
+    background-color: white;
 }
 
 .container{
@@ -113,7 +113,7 @@ section{
 .nav-link > a{
     line-height: 3rem;
     color: black;
-    padding: 0 .4rem;
+    padding: 0 .2rem;
     letter-spacing: 1px;
     font-size: 16px;
     display: flex;
@@ -147,8 +147,8 @@ section{
 
 .dropdown-link > a{
     display: flex;
-    background-color: #8b7171;
-    color: #1a1b1c;
+    background-color: white;
+    color: black;
     padding: .5rem 1rem;
     font-size: .9rem;
     align-items: center;
